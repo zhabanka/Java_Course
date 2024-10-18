@@ -160,7 +160,7 @@ public class Main {
         truck.startEngine();
         truck.drive(150);
         truck.refuel(50);
-        System.out.println("Уровень топлива в грузовике: " + truck.getFuelLevel()); //
+        System.out.println("Уровень топлива в грузовике: " + truck.getFuelLevel()); ///
 
         // Получаем общее количество автомобилей и грузовиков
         System.out.println("Всего легковых автомобилей: " + Car.getTotalCars());
