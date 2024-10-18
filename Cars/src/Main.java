@@ -144,14 +144,14 @@ class Truck extends Vehicle implements Fuelable, Driveable {
     }
 }
 
-// Класс для проверки работы
+
 public class Main {
     public static void main(String[] args) {
         // Создаем объекты легкового автомобиля и грузовика
         Car car = new Car("Toyota", "Corolla", 50, 5);
         Truck truck = new Truck("Volvo", "FH", 80, 10000);
 
-        // Вызываем методы для автомобилей
+
         car.startEngine();
         car.drive(100);
         car.refuel(20);
